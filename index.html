@@ -8,18 +8,7 @@
     <meta name="robots" content="index,follow">
     <title>Title of the document.</title>
     <script>document.createElement("myTag")</script>
-    <style>
-        header, section, footer, nav, main, article, figure {
-            display: block;
-        }
-
-        myTag{
-            display: block;
-            background-color: #ddd;
-            padding: 50px;
-            font-size: 30px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <! [endif] -->     
@@ -37,8 +26,23 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
     </header>
+    
+    <section>
+        <article >
+            <header>
+                <h1>Title of content</h1>
+                <p>Description of content</p>
+            </header>
+            Lorem ipsum dolor. 
+            <footer>
+                <small><a href="news.html">View more</a>
+                </small>
+            </footer>
+        </article>
+    </section>
+
+
     Content of Document.
     <myTag> Esta é minha Tag personalizada</myTag>
 </body>
