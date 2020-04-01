@@ -75,6 +75,20 @@
             </div>
             <button>Submit</button>
         </form>
+        <section>
+            <h1>OutPut</h1>
+            <form oninput="x.value=( parseInt(idN1.value) + parseInt(idN2.value)), y.value=(parseInt(idN1.value) - parseInt(idN2.value))">
+                0
+                <input type="range" id="idN1" name="a" value="50" min="0" max="100">
+                100
+                +
+                <input type="text" id="idN2" value="0">
+                =
+                <output name="x"></output>    
+                
+                <output name="y"></output>   
+            </form>
+        </section>
     </section>
 </body>
 </html>
